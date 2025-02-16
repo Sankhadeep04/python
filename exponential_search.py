@@ -34,4 +34,4 @@ pos = exponential_search(list,n)
 if pos == -1:
     print("Not found in the list")
 else:
-    print("Element found at {result}")
+    print("Element found at ",pos)

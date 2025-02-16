@@ -12,6 +12,6 @@ l = [1,2,3,4,9,8,6,7]
 n = 7
 
 if search(l,n):
-    print("Found at",pos)
+    print("Found at: {pos}")
 else:
     print("Not found")

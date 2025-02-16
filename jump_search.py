@@ -24,4 +24,4 @@ x = int(input("Enter element to search: "))
 n = len(arr)
 
 index = jump_search(arr, x, n)
-print(f"Element found at index: {index}" if index != -1 else "Element not found")
+print(f"Element found at index: {index + 1}" if index != -1 else "Element not found")

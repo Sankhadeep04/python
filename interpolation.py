@@ -23,4 +23,4 @@ arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 x = int(input("Enter element to search :"))
 xyz = 10
 index = interpolation_search(arr, x)
-print(f"Element found at index: {index +1}" if index != -1 else "Element not found")
+print(f"Element found at index: {index}" if index != -1 else "Element not found")

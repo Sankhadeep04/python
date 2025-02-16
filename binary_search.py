@@ -11,13 +11,13 @@ def search(list,n):
 
         else:
             if list[mid] < n:
-                start = mid;
+                start = mid
             else:
-                end = mid;
+                end = mid
             
 
 list = [1,2,3,5,6,7,9,10,15,16]
-n = int(input("Enter the number : "))
+n = int(input("Enter the number :"))
 
 if search(list,n):
     print("Found at",pos)
