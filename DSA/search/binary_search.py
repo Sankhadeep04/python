@@ -20,6 +20,6 @@ list = [1,2,3,5,6,7,9,10,15,16]
 n = int(input("Enter the number :"))
 
 if search(list,n):
-    print("Found at",pos)
+    print(f"Found at:{pos}")
 else:
     print("Not found")
