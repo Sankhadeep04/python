@@ -60,6 +60,18 @@ class linkedlist:
         self.head = self.head.next
         self.prev = None
 
+    def delete_at_last(self):
+        if not self.head:
+            print("THe linked list is empty")
+            return
+        if not self.head.next:
+            self.head = None
+            return
+        last = self.head
+        while last.next:
+            last = last.next
+        last.prev.next = None
+
     def display(self):
         current = self.head
         while current:
